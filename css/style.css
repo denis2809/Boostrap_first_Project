@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek.woff2") format("woff2"), url("../fonts/20Kopeek.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "20 Kopeek";
+  src: url("../fonts/20Kopeek-Book.woff2") format("woff2"), url("../fonts/20Kopeek-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.main-banner {
+  height: 100vh;
+}
+.main-banner .item {
+  background-image: url(../images/banner_1.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.main-banner .item.item-2 {
+  background-image: url(../images/banner_2.jpg);
+}
+.main-banner .item.item-3 {
+  background-image: url(../images/banner_3.jpg);
+}
+.main-banner .item.item-4 {
+  background-image: url(../images/banner_4.jpg);
+}
+
+header {
+  z-index: 99;
+}
+header .container nav p {
+  font-family: "20 Kopeek", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+header .navbar-nav .nav-item:nth-child(1) {
+  margin-right: 16px;
+}
+header .navbar-nav .nav-item:nth-child(2) {
+  margin-right: 8px;
+}
+header .navbar-nav .nav-item:first-of-type .nav-link {
+  padding: 7px 27px;
+  border: 1px solid #FFFFFF;
+  border-radius: 15px;
+  font-family: "20 Kopeek", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+header .navbar {
+  padding: 30px 0 0 0;
+}

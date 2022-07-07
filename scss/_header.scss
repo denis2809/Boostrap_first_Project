@@ -1,0 +1,44 @@
+header {
+	z-index: 99;
+	.container {
+		nav {
+			p {
+				font-family: '20 Kopeek', sans-serif;
+				font-style: normal;
+				font-weight: 400;
+				font-size: 15px;
+				line-height: 19px;
+				color: #FFFFFF;
+			}
+		}
+	}
+
+	.navbar-nav {
+		.nav-item {
+			&:nth-child(1){
+				margin-right: 16px;
+			}
+			&:nth-child(2){
+				margin-right: 8px;
+			}
+
+			&:first-of-type {
+				.nav-link {
+					padding: 7px 27px;
+					border: 1px solid #FFFFFF;
+					border-radius: 15px;
+					font-family: '20 Kopeek', sans-serif;
+					font-style: normal;
+					font-weight: 400;
+					font-size: 16px;
+					line-height: 140%;
+					color: #FFFFFF;
+				}
+			}
+		}
+	}
+
+		.navbar{
+			padding: 30px 0 0 0;
+		}
+}
